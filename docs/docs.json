@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "name": "User",
+      "properties": [
+        { "name": "id", "description": "User ID", "type": "string" },
+        { "name": "first_name", "description": "User's first name", "type": "string" },
+        { "name": "last_name", "description": "User's last name", "type": "string" },
+        { "name": "email", "description": "User's email address", "type": "string" },
+        { "name": "created_at", "description": "Created at timestamp", "type": "datetime" },
+        { "name": "updated_at", "description": "Updated at timestamp", "type": "datetime" }
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "response": { "name": "success", "description": "True if successful", "type": "boolean" },
+      "name": "login",
+      "description": "Login a user",
+      "request": [
+        { "name": "username", "description": "Email address", "type": "string" },
+        { "name": "password", "description": "Password", "type": "string" }
+      ]
+    }
+  ]
+}
