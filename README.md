@@ -1,9 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Api Docs
 
-## How to
+This is a simple website for viewing your internal API documentation. 
 
-- To develop, run `yarn dev`
-- To build for production, run `yarn build` and serve from the `out/` directory.
-- Put your api docs in the `docs/docs.json` file. Review the file there for structure (you can change it yourself in `pages/_app.tsx`
-- Put your request object in `docs/request.json`
-- Put your response onject in `docs/response.json`
+It is all run off of the `docs/docs.json` file. You can create your models and your endpoints and the website will build for you based on that.
+
+Example here: https://nextjs-api-docs.netlify.app/
